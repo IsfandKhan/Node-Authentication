@@ -1,0 +1,28 @@
+{
+  "name": "p2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "start http://127.0.0.1:3000 & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-message": "^1.2.3",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.16.1",
+    "express-validator": "^5.3.1",
+    "jade": "~1.11.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "~1.9.0",
+    "multer": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
